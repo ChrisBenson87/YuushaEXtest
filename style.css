@@ -42,14 +42,14 @@ h2, h3, p{
     display: inline-flex;
     font-family: 'Fjalla One', sans-serif;
     background-color: skyblue;
-    color: darkgrey;
+    color: red;
     font-size: 25px;
 }
 
 h1{
     font-family: 'Fjalla One', sans-serif;
     background-color: skyblue;
-    color: darkgrey;
+    color: red;
     font-size: 25px;
 }
 
@@ -84,3 +84,7 @@ h1{
     align-items: center;
 }
 
+.construct{
+    display: inline-flex;
+    opacity: 0.5;
+}
