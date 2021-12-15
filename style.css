@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    /* min-width: 100vw; */
+    background-image: url("crystal.png");
+    background-color: skyblue;
+    background-position: center;
+    background-size:cover;
+
+}
+
+.banner{
+    display: flex;
+    min-width: 100vw;
+    position: relative;
+    top: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.navbutton{
+    text-align: center;
+    font-size:50px ;
+    background-color: cornflowerblue;
+    color: red;
+    position: relative;
+    cursor: pointer;
+    size-adjust: 10%;
+    justify-content: space-evenly;
+}
+
+h1, h2, h3, p{
+    display: inline-flex;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: skyblue;
+    color: darkgrey;
+    font-size: 25px;
+}
+
+.h1{
+    text-align: center;
+    font-style: bold;
+    
+}
+
+.contentabout{
+    display: flex;
+    justify-content: center;
+}
+
+.XIVlogo{
+    display: inline-flex;
+    align-items:center;
+    width: 20%;
+    justify-content: center;
+}
+
+.FFRKlogo{
+    display: inline-flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+}
+
+.twitter{
+    display: inline-flex;
+    width: 10%;
+    align-items: center;
+}
+
+.youtube{
+    display: inline-flex;
+    width: 10%;
+    align-items: center;
+}
+
