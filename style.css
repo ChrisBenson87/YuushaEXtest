@@ -28,7 +28,6 @@ body {
 }
 
 .navbutton{
-    display: flex;
     text-align: center;
     font-size:50px ;
     background-color: cornflowerblue;
